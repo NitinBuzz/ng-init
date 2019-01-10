@@ -1,0 +1,15 @@
+<span>
+  two-way-binding works!
+</span>
+<span>
+  <input type="text" (input)="handleInputEx($event)" />
+  input is {{inputEx}}
+</span>
+<br>
+<span>
+  two-way-binding with ngModel
+</span>
+<span>
+  <input type="text" [(ngModel)]="input"/>
+  ngModel input is {{input}}
+</span>
